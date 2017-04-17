@@ -1,0 +1,130 @@
+$fontStack: Helvetica,sans-serif;
+$primaryColor: #333;
+$text-align: center;
+$bodyColor:#A9A9A9;
+$borderColor:#fff;
+$width:900px;
+$height:500px;
+body {
+    font-family: $fontStack;
+    color: $primaryColor;
+    background:$bodyColor;
+}
+
+.content{
+	background:$bodyColor;
+	width: $width;
+	height:$height;
+	// border:3px solid $borderColor;
+	margin:0 auto;
+}
+.up{
+	height:$height*0.4;
+	width:$width;
+	border:3px solid #32CD32;
+	background:#32CD32;
+}
+.up_left{
+	height:$height*0.4;
+	width:$width*0.3;
+	font-size:180px;
+	float:left;
+	color:$borderColor;
+	margin-left:40px;
+	position:relative;
+}
+.up_right{
+	height:$height*0.4;
+	width:$width*0.6;
+	float:left;
+	margin-left:10px;
+}
+.up_right h1{
+	font-size:56px;
+}
+
+.up_right span{
+	font-size:14px;
+	margin-left:40px;
+}
+
+.down{
+	height:$height*0.6;
+	width:$width;
+	border:3px solid $borderColor;
+	background:$borderColor;
+}
+.down_up{
+	height:$height*0.6*0.3;
+	width:$width;
+}
+.down_up span{
+	
+	display: inline-block;
+    float: left;
+    position: absolute;
+    margin-left: 120px;
+    margin-top: 40px;
+    font-size:32px;
+	font-weight:bold;
+}
+
+.down_up em{
+	display: inline-block;
+    float: left;
+    position: absolute;
+    font-size:18px;
+	font-weight:bold;
+}
+.em1{
+	margin-left: 410px;
+    margin-top: 56px;
+}
+.em2{
+	  margin-left: 660px;
+    margin-top: 56px;
+}
+.icon{
+   
+    border-bottom: 30px solid #fff;
+    border-left: 90px solid red;
+    width: 0;
+    transform:rotate(180deg);
+    display:inline-block;
+    margin-left:10px;
+    margin-top:59px;
+    position: absolute;
+}
+.icon2{
+	height:10px;
+	width:780px;
+	background:red;
+	display:inline-block;
+	margin-left:100px; 
+    margin-top:79px;
+}
+
+.down_down{
+	height:$height*0.6*0.7;
+	width:$width;
+}
+.down_down p{
+	float:left;
+	margin:25px;
+	width:14px;
+	font-size:18px;
+	font-weight:bold;
+
+}
+
+h2{
+	position: relative;
+	margin-left:100px; 
+    // display:inline-block;
+}
+
+h1 {
+    color: $primaryColor;
+    text-align:$text-align;
+    padding-top:3%;
+}
